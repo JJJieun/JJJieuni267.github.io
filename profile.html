@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>직무능력평가1</title>
+    <meta name="viewport" content="width=device-width">
+<!--    <link rel= "stylesheet" href="./css/style.css">-->
+    <style>
+        
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { 
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+/*        헤더*/
+        header {
+            max-width: 1920px;
+        }
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            display: inline-block;
+            line-height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            background-color: #bf2ad3;
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;         
+        }
+        #headA #headA_h1 a:hover {
+            background-color: #e59cef;
+            color: #ffffff;
+        }
+        #headA #headA_h1 {
+            margin: 0px;
+            font-size: 30px;
+            text-shadow:5px 5px 8px #666666;
+            font-family: Ink Free;
+        }
+        #headA p{
+            margin: 0px;
+            display: inline-block;
+            padding-top: 0px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        #headA {
+            max-width: 1000px;
+            float: left;
+        }
+        #headC {
+            float: right;
+            margin-right: 20px;
+            color: #ffffff;
+            padding-bottom: 16px;
+        }
+        body { 
+            background-color : seashell;
+        }
+        
+        /* 메인메뉴 */
+         #menu {
+            clear: both;
+            height: 40px;
+            background-color: hotpink;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 20px; 
+            border: solid 1px red;
+        }
+        #menu li {
+            display: inline-block;
+        }
+        #menu li a:after {
+            content: '|';
+            margin-left: 50px;
+            }
+        #menu li a:hover {
+            color: #eafaf9;
+        }
+        
+        #menu li {
+            display: inline;
+        }
+        .item {
+            margin: 0 30px 0 30px;
+        }
+        
+        /*        float 해제*/
+        .clear {
+            clear:both;
+        }
+/*        본문 내용 배치*/
+        #wrapper{
+            max-width: 800px;
+            text-align: left;
+            margin-left: 20px;
+            
+        }
+   
+        .conB {
+            margin-bottom: 10px;
+        }
+        
+        /*사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        .site: hover {
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 20px;
+        }
+        /*저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 14px;
+        }
+        
+        /*float 해제*/
+        .clear {
+            clear: both;
+        }
+        
+      
+        /*본문 내용 배치*/\
+        #wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /*profile CSS*/\
+        h1 {
+            color:purple;
+            font-family:"Arial";
+            font-size:60px;
+            text-align: center;
+            text-shadow:5px 5px 8px #666666;
+            margin: 20px;
+        }
+        h2 {
+            color:green;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+        h3 {
+            font-size:60px;
+            font-style: italic;
+            text-align: center;
+            color:violet;
+            text-shadow: 2px 2px 3px #666666;
+        }
+        p {
+            color: #444444;
+            font-family:"Arial";
+            font-size: 14px;
+            line-height:150%
+        }
+        #logo {
+            text-align: center; 
+            margin: 30px;
+            
+            
+        }
+        #img_main {
+            border:1px solid #ffffff;
+            border-radius: 100%;
+            /* border-radius: 2rem;*/
+            border: 1px soild #ffffff;
+            text-align: center;
+            width: 400px;
+            border: dotted 5px rgba(255, 75, 200, 0.42);
+            padding: 10px
+        }
+        #main {
+            text-align: center;
+            margin: 10px;
+        }
+        #content {
+            border: 2px solid deeppink;
+            padding: 20px;
+            margin-bottom: 30px;
+            background-color: pink;
+            margin: 20px;
+        }
+        #content p {
+            font-size: 14px;
+        }
+        #content span {
+            font-size: 14px;
+            font-weight: normal;
+            margin-left: 18px;
+        }
+    </style>
+</head>
+<body>
+  <!--헤더-->
+ <header>
+    <div id= "headA"> 
+         <h1 id= "headA_h1"><a href="index.html" class="site">LeeJiEun</a></h1>
+         <p>콘텐츠 프로그래밍1B</p>
+    </div>
+    <div id= "headB">
+        
+    </div>
+       <ul id='menu'>
+             <li><a href="profile.html">Profile</a></li>
+             <li><a href="hw01.html">HW01</a></li>
+             <li><a href="hw02.html">HW02</a></li>
+             <li><a href="hw03.html">HW03</a></li>
+             <li><a href="hw04.html">HW04</a></li>
+             <li><a href="hw05.html">HW05</a></li>
+             <li><a href="portfolio.html">Portfolio</a></li> 
+	       
+       </ul>
+       </header>
+       <!--float 해제-->
+       <div class= "clear"></div>
+       <div id= "wrapper"></div>
+          <!--    본문제목-->
+          <section class= "conB">
+              <div class= "container">
+                  <div class= "text">
+                      <p>Profile</p>
+                      <span>자기소개</span>
+                  </div>
+              </div>
+          </section>
+          
+          <!-- 본문 내용 시작 -->
+          <section class= "conC">
+              <article>
+                  <h3>Contents Programming</h3>
+                  <div id= "logo">
+                      <img id= "img_main" src="./img/myphoto.jpg" alt="내사진" title= "내사진">
+                  </div>
+                  <div id= "content">
+                     <p>디지털 미디어 디자인과 1학년 B반 21861100 이지은</p>
+                      <p>대전 출신 98년생 21살</p>
+                      <p>여행다니는 것을 좋아하고 취미는 소묘, 가야금</p>
+                  </div>
+              </article>
+          </section>
+    <!--본문 내용 끝-->
+    
+    <!--저작권-->
+    <footer>
+            <div id= "footer">
+                <p>
+                   Copyright &copy <a href="index.html" class="site">LEE JI EUN</a> All rights reserved.
+                </p>
+                <span>EMAIL : jieuni267@gmail.com</span>
+            </div>
+    </footer>       
+</body>
+</html>

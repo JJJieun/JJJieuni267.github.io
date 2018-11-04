@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>hw.01</title>
+    <meta name="viewport" content="width=device-width">
+<!--    <link rel= "stylesheet" href="./css/style.css">-->
+    <style>
+         * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { 
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+/*        헤더*/
+        header {
+            max-width: 1920px;
+        }
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            display: inline-block;
+            line-height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            background-color: #bf2ad3;
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;         
+        }
+        #headA #headA_h1 a:hover {
+            background-color: #e59cef;
+            color: #ffffff;
+        }
+        #headA #headA_h1 {
+            margin: 0px;
+            font-size: 30px;
+            text-shadow:5px 5px 8px #666666;
+            font-family: Ink Free;
+        }
+        #headA p{
+            margin: 0px;
+            display: inline-block;
+            padding-top: 0px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        #headA {
+            max-width: 1000px;
+            float: left;
+        }
+        #headC {
+            float: right;
+            margin-right: 20px;
+            color: #ffffff;
+            padding-bottom: 16px;
+        }
+        
+        
+        /* 메인메뉴 */
+         #menu {
+            clear: both;
+            height: 40px;
+            background-color: hotpink;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 20px; 
+           
+        
+        }
+        #menu li {
+            display: inline-block;
+        }
+        #menu li a:after {
+            content: '|';
+            margin-left: 30px;
+            margin-right: 30px;
+            }
+        #menu li a:hover {
+            color: #eafaf9;    
+        }
+        .item {
+            margin: 0 30px 0 30px;
+        }
+        
+/*        float 해제*/
+        .clear {
+            clear:both;
+        }
+/*        본문 내용 배치*/
+        #wrapper{
+            max-width: 800px;
+            text-align: left;
+            margin-left: 20px;
+            
+        }
+   
+        .conB {
+            margin-bottom: 10px;
+        }
+        
+        /*사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        .site:hover {
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 20px;
+        }
+        /*저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 14px;
+        }
+        
+        /*float 해제*/
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<!--헤더-->
+ <header>
+    <div id= "headA"> 
+         <h1 id= "headA_h1"><a href="index.html" class="site">LeeJiEun</a></h1>
+         <p>콘텐츠 프로그래밍1B</p>
+    </div>
+    <div id= "headB">
+        
+    </div>
+      
+           <ul id='menu'>
+             <li><a href="profile.html">Profile</a></li>
+             <li><a href="hw01.html">HW01</a></li>
+             <li><a href="hw02.html">HW02</a></li>
+             <li><a href="hw03.html">HW03</a></li>
+             <li><a href="hw04.html">HW04</a></li>
+             <li><a href="hw05.html">HW05</a></li>
+             <li><a href="portfolio.html">Portfolio</a></li> 
+	       
+           </ul>
+       
+ </header>
+ <!--float 해제-->
+       <div class= "clear"></div>
+       <div id= "wrapper"></div>
+          <!--    본문제목-->
+          <section class= "conB">
+              <div class= "container">
+                  <div class= "text">
+                      <p>과제01: HTML</p>
+                      <span>웹 표준과 웹 접근성</span>
+                  </div>
+              </div>
+          </section>
+ 
+   <div id= "wrapper"><p>
+    <h1>1. 웹 표준</h1>
+       출처 :  https://ko.wikipedia.org/wiki/%EC%9B%B9_%ED%91%9C%EC%A4%80<br>
+     
+    <pr>
+    &nbsp;<p><mark>웹 표준</mark>은 월드 와이드 웹의 측면을 서술하고 정의하는 공식 표준이나 다른 기술 규격을 가리키는 일반적인 용어이다.
+    최근에 이 용어는 웹 사이트를 작성하는 데 중요도가 높아지고 있으며 웹 디자인, 개발과 관계가 있다.<br> 
+    수많은 상호 의존성이 있는 표준들과 규격들 가운데 일부는 단지 월드 와이드 웹으로만 끝나는 것이 아니라, 인터넷의 관리 측면이기도 하며
+    이러한 표준들은 직간접적으로 웹 사이트, 웹 서비스 개발과 관리에 영향을 주고 있다.이러한 것들 모두 "웹 표준"이라고 부르지만 웹 표준으로 이동하는 것을 찬성하는 사람들은 사용성과 접근성에 직접 영향을 미치는 더 높은 수준의 표준에 초점을 두는 경향이 있다.<br>
+   
+      <br>
+      <br>
+       
+    <br>
+    <br>
+    <h1>2. 웹 접근성</h1></pr>
+       출처 : https://ko.wikipedia.org/wiki/%EC%9B%B9_%EC%A0%91%EA%B7%BC%EC%84%B<br>
+    
+    <pr></pr>
+    &nbsp;<p><mark>웹 접근성</mark>(web accessibility)은 장애를 가진 사람과 장애를 가지지 않은 사람 모두가 웹사이트를 이용할 수 있게 하는 방식을 가리킨다.
+     사이트가 올바르게 설계되어 개발되고 편집되어 있을 때 모든 사용자들은 정보와 기능에 동등하게 접근할 수 있다.
+     장애인과 비장애인의 차별이 있으면 안되기 때문에 동등한 서비스 접근이 필요하다.
+      <br>
+      <br>
+        
+
+   </div>
+   <!--본문 내용 끝-->
+   
+    <!--저작권-->
+    <footer>
+            <div id= "footer">
+                <p>
+                   Copyright &copy <a href="index.html" class="site">LEE JI EUN</a> All rights reserved.
+                </p>
+                <span>EMAIL : jieuni267@gmail.com</span>
+            </div>
+    </footer>       
+</body>
+</html>

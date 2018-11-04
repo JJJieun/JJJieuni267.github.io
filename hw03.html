@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw.03</title>
+    <meta name="viewport" content="width=device-width">
+    <!--<link rel= "stylesheet" href="./css/style.css">-->
+    <style>
+         * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { 
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+/*        헤더*/
+        header {
+            max-width: 1920px;
+        }
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            display: inline-block;
+            line-height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            background-color: #bf2ad3;
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;         
+        }
+        #headA #headA_h1 a:hover {
+            background-color: #e59cef;
+            color: #ffffff;
+        }
+        #headA #headA_h1 {
+            margin: 0px;
+            font-size: 30px;
+            text-shadow:5px 5px 8px #666666;
+            font-family: Ink Free;
+        }
+        #headA p{
+            margin: 0px;
+            display: inline-block;
+            padding-top: 0px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        #headA {
+            max-width: 1000px;
+            float: left;
+        }
+        #headC {
+            float: right;
+            margin-right: 20px;
+            color: #ffffff;
+            padding-bottom: 16px;
+        }
+        
+        
+        /* 메인메뉴 */
+        #menu {
+            clear: both;
+            height: 40px;
+            background-color: hotpink;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 20px; 
+            border: solid 1px red;
+        }
+        #menu li {
+            display: inline-block;
+        }
+        #menu li a:after {
+            content: '|';
+            margin-left: 50px;
+            }
+        #menu li a:hover {
+            color: #eafaf9;
+        }
+        .item {
+            margin: 0 30px 0 30px;
+        }
+/*        float 해제*/
+        .clear {
+            clear:both;
+        }
+/*        본문 내용 배치*/ 
+        #wrapper{
+            max-width: 800px;
+            text-align: left;
+            margin-left: 20px;
+            
+        }
+   
+        .conB {
+            margin-bottom: 10px;
+        }
+        
+        /*사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        .site: hover {
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 20px;
+        }
+        .conB {
+            margin-bottom: 10px;
+        }
+        
+        /*사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        .site: hover {
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 20px;
+        }
+         /*저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 14px;
+        }
+        
+        /*float 해제*/
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+   <!--헤더-->
+ <header>
+    <div id= "headA"> 
+         <h1 id= "headA_h1"><a href="index.html" class="site">LeeJiEun</a></h1>
+         <p>콘텐츠 프로그래밍1B</p>
+    </div>
+    <div id= "headB">
+        
+       </div>
+       <ul id='menu'>
+             <li><a href="profile.html">Profile</a></li>
+             <li><a href="hw01.html">HW01</a></li>
+             <li><a href="hw02.html">HW02</a></li>
+             <li><a href="hw03.html">HW03</a></li>
+             <li><a href="hw04.html">HW04</a></li>
+             <li><a href="hw05.html">HW05</a></li>
+             <li><a href="portfolio.html">Portfolio</a></li> 
+	       
+      </ul>
+       </header>
+       <!--float 해제-->
+       <div class= "clear"></div>
+        <div id= "wrapper"></div>
+          <!--    본문제목-->
+          <section class= "conB">
+              <div class= "container">
+                  <div class= "text">
+                      <p>과제03: HTML</p>
+                      <span>괌 여행 계획서</span>
+                  </div>
+              </div>
+          </section>
+    <h1>괌 여행 계획서</h1>
+      <img src="./img/괌1.jpg" alt="괌사진" width="400" height="300"/><br>
+      <img src="./img/괌2.jpg" alt="괌사진" width="400" height="300"/><br>
+    <h2>필수사항</h2>
+         <ul>
+          <li>기후 : 여름, (최저21도-최고32도)</li>
+          <li>언어 : 차모로어/영어</li>
+          <li>시차 : 한국보다 1시간 빠름</li>
+          <li>준비물 : 여권, 볼펜, 현금, 항공권, 수영복, 어답터(110v)</li>
+         <ul/> 
+         
+         <br>
+         <br>
+         
+    <h2>일정표</h2>
+       <!-- 테이블 시작 -->
+     <table border='1'>
+    <tr>
+       <th>날짜</th>
+       <th>일정</th>
+       <th>사진</th>
+   </tr>
+   <tr>
+       <td>1일차</td>
+       <td>
+          10:35 인천공항출발 (약 4시간 20분 소요)<br>
+          16:05 괌 도착<br>
+          두짓타니 호텔 숙박
+       </td>
+       <td><img src="./img/두짓타니호텔.jpg" alt="두짓타니호텔사진" width="100" height="100"/><br></td>
+       
+   </tr>
+   <tr>
+       <td>2일차</td>
+       <td>
+         괌 아일랜드 관광 (약 2시간 소요)<br>
+          사랑의 절벽<br>
+          스페인 광장<br>
+          라테스톤 공원<br>
+          두짓타니 호텔 숙박
+         
+       </td>
+       <td><img src="./img/사랑의절벽.jpg" alt="사랑의절벽사진" width="100" height="100"/><br></td>
+       
+   </tr>
+   <tr>
+       <td>3일차</td>
+       <td>
+          호텔 휴식<br>
+          괌 시내 관광<br>
+          두짓타니 호텔 숙박<br>   
+       </td>
+       <td><img src="./img/괌시내.jpg" alt="괌시내사진" width="100" height="100"/><br></td>
+       
+   </tr>
+   <tr>
+       <td>4일차</td>
+       <td>
+          12:00 호텔 체크아웃<br>
+          17:00 괌 공항 출발<br>
+          21:00 인천공항 도착
+       </td>
+   </tr>
+   </table>
+    <p>
+        *출처:
+        <a href="http://www.ybtour.co.kr/product/detailPackage.do?menu=pkg&did=10350&evCd=PGP3005-1810017C00">노랑풍선</a>
+    </p>
+   <!--본문 내용 끝-->
+   
+    <!--저작권-->
+    <footer>
+            <div id= "footer">
+                <p>
+                   Copyright &copy <a href="index.html" class="site">LEE JI EUN</a> All rights reserved.
+                </p>
+                <span>EMAIL : jieuni267@gmail.com</span>
+            </div>
+    </footer>       
+</body>
+</html>

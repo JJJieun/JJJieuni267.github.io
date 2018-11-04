@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+ <meta name="viewport" content="width=device-width">
+<!--    <link rel= "stylesheet" href="./css/style.css">-->
+</head>
+<style>
+     * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { 
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+/*        헤더*/
+        header {
+            max-width: 1920px;
+        }
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            display: inline-block;
+            line-height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            background-color: #bf2ad3;
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;         
+        }
+        #headA #headA_h1 a:hover {
+            background-color: #e59cef;
+            color: #ffffff;
+        }
+        #headA #headA_h1 {
+            margin: 0px;
+            font-size: 30px;
+            text-shadow:5px 5px 8px #666666;
+            font-family: Ink Free;
+        }
+        #headA p{
+            margin: 0px;
+            display: inline-block;
+            padding-top: 0px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        #headA {
+            max-width: 1000px;
+            float: left;
+        }
+        #headC {
+            float: right;
+            margin-right: 20px;
+            color: #ffffff;
+            padding-bottom: 16px;
+        }
+        
+        
+        /* 메인메뉴 */
+         #menu {
+            clear: both;
+            height: 40px;
+            background-color: hotpink;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 20px; 
+            font-family:"고딕";
+            border: solid 1px red;
+        }
+        #menu li {
+            display: inline-block;
+        }
+        #menu li a:after {
+            content: '|';
+            margin-left: 50px;
+            }
+        #menu li a:hover {
+            color: #eafaf9;
+        }
+        
+        #menu li {
+            display: inline;
+        }
+        .item {
+            margin: 0 30px 0 30px;
+        }
+        
+/*        float 해제*/
+        .clear {
+            clear:both;
+        }
+/*        본문 내용 배치*/
+        #wrapper{
+            max-width: 800px;
+            text-align: left;
+            margin-left: 20px;
+            
+        }
+   
+        .conB {
+            margin-bottom: 10px;
+        }
+        
+        /*사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        .site: hover {
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 20px;
+        }
+        /*저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 14px;
+        }
+        
+        /*float 해제*/
+        .clear {
+            clear: both;
+        }
+        body {
+            font-family:"돋움";
+            font-size:12px;
+            color:#444444; 
+            background-color : seashell;
+        }
+        ul {
+            list-style-type:none;
+        }
+            ul img {
+
+            }
+        .clear {
+            clear:both;
+        }
+        #new h1 {
+            padding-bottom:5px;
+            border-bottom:solid 2px hotpink;
+        }
+        #new h1 span{
+            color:hotpink;
+            text-align: center;
+            font-size: 40px;
+            font-family: BroadwayEngraved BT;
+            text-align: center;
+            margin-left:40px;
+        }
+        #new .item{
+            float:left;
+            margin-top:20px;
+            margin-left:40px;
+            text-align:center;
+        }
+        #new .subject{
+            margin-top:10px;
+            color:red;
+        }
+        #new .comment{
+            margin-top:5px;
+            color:#888888;
+        }
+
+</style>
+
+<body>
+     <!--헤더-->
+       <header>
+            <div id= "headA"> 
+                 <h1 id= "headA_h1"><a href="index.html" class="site">LeeJiEun</a></h1>
+                 <p>콘텐츠 프로그래밍1B</p>
+            </div>
+            <div id= "headB">
+            </div>
+            <ul id='menu'>
+                     <li><a href="profile.html">Profile</a></li>
+                     <li><a href="hw01.html">HW01</a></li>
+                     <li><a href="hw02.html">HW02</a></li>
+                     <li><a href="hw03.html">HW03</a></li>
+                     <li><a href="hw04.html">HW04</a></li>
+                     <li><a href="hw05.html">HW05</a></li>
+                     <li><a href="portfolio.html">Portfolio</a></li> 
+            </ul>
+       </header>
+       <!--       float 해제-->
+       <div class= "clear"></div>
+        <div id= "wrapper"></div>
+          <!--    본문제목-->
+          <section class= "conB">
+              <div class= "container">
+                  <div class= "text">
+                      <p>포트폴리오: HTML</p>   
+                  </div>
+              </div>
+          </section>
+      <div id="new">
+        <h1><span>Portfolio</span> 이지은</h1>
+            <ul class="item">
+              <li><img src="img/완성.jpg" alt="베이비드라이버 사진" width="200" height="260"></li>
+              <li class="subject">기초 드로잉</li>
+              <li class="comment">영화 베이비 드라이버 포스터 제작</li>
+            </ul>
+
+        <div class="clear"></div>
+
+                <ul class="item">
+                  <li><img src="img/진석잉.jpg" alt="진석 사진" width="200" height="150"></li>
+                  <li class="subject">기초 영상</li>
+                  <li class="comment">인스타그램 홍보 영상 제작</li>
+                </ul>
+                <ul class="item">
+                  <li><img src="img/규리12.jpg" alt="규리 사진" width="200" height="150"></li>
+                  <li class="subject">기초 영상</li>
+                  <li class="comment">인스타그램 홍보 영상 제작</li>
+                </ul>
+
+        <div class="clear"></div>
+
+                <ul class="item">
+                  <li><img src="img/현대.jpg" alt="현대 사진" width="200" height="120"></li>
+                  <li class="subject">영상 디자인</li>
+                  <li class="comment">현대자동차 홍보 영상 제작</li>
+                </ul>
+
+        <div class="clear"></div>
+
+
+                <ul class="item">
+                  <li><img src="img/수정2.jpg" alt="라이언 사진2" width="200" height="140"></li>
+                  <li class="subject">3D 디자인</li>
+                  <li class="comment">스노우볼 라이언 그림자 합성</li>
+
+                </ul>
+                <ul class="item">
+                  <li><img src="img/라이언둥둥.jpg" alt="라이언 사진1" width="200" height="140"></li>
+                  <li class="subject">3D 디자인</li>
+                  <li class="comment">풍선 라이언 그림자 합성</li>
+                </ul>
+      </div>
+      <div class= "clear"></div> <!-- new -->
+      <!--본문 내용 끝-->
+   
+    <!--저작권-->
+    <footer>
+            <div id= "footer">
+                <p>
+                   Copyright &copy <a href="index.html" class="site">LEE JI EUN</a> All rights reserved.
+                </p>
+                <span>EMAIL : jieuni267@gmail.com</span>
+            </div>
+    </footer>       
+</body>
+</html>

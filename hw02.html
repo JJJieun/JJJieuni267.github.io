@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw.02</title>
+     <meta name="viewport" content="width=device-width">
+<!--    <link rel= "stylesheet" href="./css/style.css">-->
+    <style>
+         * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body { 
+            font-family: '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+        }
+/*        헤더*/
+        header {
+            max-width: 1920px;
+        }
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            display: inline-block;
+            line-height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            background-color: #bf2ad3;
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;         
+        }
+        #headA #headA_h1 a:hover {
+            background-color: #e59cef;
+            color: #ffffff;
+        }
+        #headA #headA_h1 {
+            margin: 0px;
+            font-size: 30px;
+            text-shadow:5px 5px 8px #666666;
+            font-family: Ink Free;
+        }
+        #headA p{
+            margin: 0px;
+            display: inline-block;
+            padding-top: 0px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        #headA {
+            max-width: 1000px;
+            float: left;
+        }
+        #headC {
+            float: right;
+            margin-right: 20px;
+            color: #ffffff;
+            padding-bottom: 16px;
+        }
+        
+        
+        /* 메인메뉴 */
+         #menu {
+            clear: both;
+            height: 40px;
+            background-color: hotpink;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 20px; 
+            border: solid 1px red;
+        }
+        #menu li {
+            display: inline-block;
+        }
+        #menu li a:after {
+            content: '|';
+            margin-left: 50px;
+            }
+        #menu li a:hover {
+            color: #eafaf9;
+        }
+        .item {
+            margin: 0 30px 0 30px;
+        }
+       
+/*        float 해제*/
+        .clear {
+            clear:both;
+        }
+/*        본문 내용 배치*/
+        #wrapper{
+            max-width: 800px;
+            text-align: left;
+            margin-left: 20px;
+            
+        }
+   
+        .conB {
+            margin-bottom: 10px;
+        }
+        
+        /*사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        .site: hover {
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 20px;
+        }
+         /*저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 14px;
+        }
+        
+        /*float 해제*/
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+   <!--헤더-->
+     <header>
+        <div id= "headA"> 
+             <h1 id= "headA_h1"><a href="index.html" class="site">LeeJiEun</a></h1>
+             <p>콘텐츠 프로그래밍1B</p>
+        </div>
+        <div id= "headB">
+
+           </div>
+           <ul id='menu'>
+                 <li><a href="profile.html">Profile</a></li>
+                 <li><a href="hw01.html">HW01</a></li>
+                 <li><a href="hw02.html">HW02</a></li>
+                 <li><a href="hw03.html">HW03</a></li>
+                 <li><a href="hw04.html">HW04</a></li>
+                 <li><a href="hw05.html">HW05</a></li>
+                 <li><a href="portfolio.html">Portfolio</a></li> 
+
+           </ul>
+    </header>
+    <!--float 해제-->
+       <div class= "clear"></div>
+       <div id= "wrapper"></div>
+          <!--    본문제목-->
+          <section class= "conB">
+              <div class= "container">
+                  <div class= "text">
+                      <p>과제02: HTML</p>
+                      <span>디즈니 애니메이션 소개</span>
+                  </div>
+              </div>
+          </section>
+    <div id= "wrapper">      
+    <h1>디즈니 애니메이션</h1>
+    <ul>
+        <li>피터팬</li>
+        <li>백설공주</li>
+        <li>겨울왕국</li>
+        <li>미녀와 야수</li>
+        <li>이상한나라의 앨리스</li>
+    </ul>   
+    <ol>
+          <li><h3> 피터팬</h3></li>
+          <img src="./img/peterpan.jpg" alt="피터팬 사진" width="300"><br>
+          영국의 작가 배리가 쓴 동화극. 또는 그 동화극에 나오는 주인공의 이름. 영원히 어른이 되지 않는 소년인 주인공과 인간 세계의 소녀 웬디가 해적선장 후크와 싸우는 모험 이야기로, 1904년에 초연되었으며 5막으로 되어 있다.
+          <li><h3> 백설공주</h3></li>
+          <img src="./img/snowwhite.jpg" alt="백설공주 사진" width="300"><br>
+          ≪그림 동화집≫에 실려 있는 독일의 전래 민화. 또는 그 이야기에 나오는 여자 주인공. 백설같이 살결이 흰 아름다운 공주가 못된 계모의 계교로 독약이 든 사과를 먹고 죽어 유리로 된 관 속에 들어갔으나, 왕자가 와서 공주를 되살리고 계모는 벌을 받는다는 내용이다.
+          <li><h3> 겨울왕국</h3></li>
+          <li><img src="./img/frozen.jpg" alt="겨울왕국 사진" width="300"><br>
+          디즈니 애니메이션 <겨울왕국>은 2013년 11월 27일 미국 개봉을 시작으로 전 세계에 개봉하여 골든글로브 애니메이션상, 아카데미상 장편 애니메이션상과 주제가상 등을 수상하였다. 흥행에서도 2013년 개봉 영화 중에서 해당 연도 세계 흥행 1위와 역대 애니메이션 영화 흥행 순위 1위를 기록하면서 디즈니 애니메이션의 저력을 또 한 번 보여준 작품이다.
+          <li><h3> 미녀와 야수</h3></li>
+          <img src="./img/beast.jpg" alt="미녀와 야수 사진" width="300"><br>
+          어느 먼 옛날 어떤 나라에 거만한 왕자가 살았다. 왕자는 자비를 베풀 줄 몰라 구걸하러 온 노파를 무시했는데 이 때문에 마법에 걸려 야수로 변한다. 야수의 마법은 진정한 사랑을 찾으면 풀리는 것이었으나 누구도 야수를 찾아오는 이가 없었다. 어느 날 미녀 벨이 길을 잃고 우연히 성에 오고, 벨과 야수는 성에서 함께 생활하게 된다. 시간이 지날수록 벨은 점점 야수의 진심을 알게 되며 야수 역시 아름다운 벨과 사랑에 빠지게 된다.
+          <li><h3> 이상한나라의 앨리스</h3></li>
+           <img src="./img/alice.jpg" alt="이상한나라의 앨리스 사진" width="300"><br>
+           [이상한 나라의 앨리스]는 환상 속으로 빠져들어 낯설고 신비로운 이상한 나라에서 새와 짐승과 다정하게 재잘거리는 꿈의 아이, 앨리스의 이야기이다.
+     </ol>
+     </div>
+   <!--본문 내용 끝-->
+   
+    <!--저작권-->
+    <footer>
+            <div id= "footer">
+                <p>
+                   Copyright &copy <a href="index.html" class="site">LEE JI EUN</a> All rights reserved.
+                </p>
+                <span>EMAIL : jieuni267@gmail.com</span>
+            </div>
+    </footer>       
+    
+</body>
+</html>
