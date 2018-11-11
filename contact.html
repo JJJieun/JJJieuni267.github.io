@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width">
+<!--    <link rel= "stylesheet" href="./css/style.css">-->
+    <style>
+         * {
+            padding: 10;
+            margin: 20;
+        }
+        
+        body { 
+            font-family: 'HU바람고딕', 'Apple SD Gothic Neo', sans-serif;
+          
+        }
+        
+/*        헤더*/
+        header {
+            max-width: 1920px;
+        }
+/*        사이트 이름*/
+        #headA #headA_h1 a {
+            display: inline-block;
+            line-height: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 0px;
+            background-color: #bf2ad3;
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;         
+        }
+        #headA #headA_h1 a:hover {
+            background-color: #e59cef;
+            color: #ffffff;
+        }
+        #headA #headA_h1 {
+            margin: 0px;
+            font-size: 30px;
+            text-shadow:5px 5px 8px #666666;
+            font-family: Ink Free;
+        }
+        #headA p{
+            margin: 0px;
+            display: inline-block;
+            padding-top: 0px;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+        #headA {
+            max-width: 1000px;
+            float: left;
+        }
+        #headC {
+            float: right;
+            margin-right: 20px;
+            color: #ffffff;
+            padding-bottom: 16px;
+        }
+        
+        
+        
+        /* 메인메뉴 */
+         #menu {
+            clear: both;
+            height: 40px;
+            background-color: hotpink;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+            font-size: 20px;
+            text-decoration: none;
+           
+        
+        }
+        #menu li {
+            display: inline-block;
+        }
+        #menu li a{
+            text-decoration: none;
+             margin-left: 30px;
+            margin-right: 30px;
+        }
+    
+        #menu li a:hover{
+            color: white; 
+            text-decoration: underline;
+        }
+        .item {
+            margin: 0 30px 0 30px;
+        }
+        
+/*        float 해제*/
+        .clear {
+            clear:both;
+        }
+/*        본문 내용 배치*/
+        
+        #wrapper{
+            max-width: 800px;
+            text-align: left;
+            margin-left: 40px;
+            
+        }
+   
+        .conB {
+            margin-bottom: 10px;
+        }
+        
+        /*사이트 링크 주소 처리*/
+        .site {
+            text-decoration: none;
+            color: #888888;
+            font-weight: bold;
+        }
+        .site:hover {
+            text-decoration: underline;
+        }
+        #wrapper {
+            margin: 40px;
+        }
+       
+        /*저작권*/
+        #footer {
+            border-top: 1px solid #dddddd;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        #footer span {
+            font-size: 12px;
+            font-weight: normal;
+            margin-left: 14px;
+        }
+        
+        /*float 해제*/
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <!--헤더-->
+ <header>
+    <div id= "headA"> 
+         <h1 id= "headA_h1"><a href="index.html" class="site">LeeJiEun</a></h1>
+         <p>콘텐츠 프로그래밍1B</p>
+    </div>
+    <div id= "headB">
+        
+    </div>
+      
+           <ul id='menu' style="text-decoration: none">
+             <li><a href="profile.html">Profile</a></li>
+             <li><a href="hw01.html">HW01</a></li>
+             <li><a href="hw02.html">HW02</a></li>
+             <li><a href="hw03.html">HW03</a></li>
+             <li><a href="hw04.html">HW04</a></li>
+             <li><a href="hw05.html">HW05</a></li>
+             <li><a href="portfolio.html">Portfolio</a></li> 
+           </ul>
+       
+ </header>
+ <body>
+ <div class= "clear">
+       <div id= "wrapper">
+  <h3>Contact</h3>
+<form>
+<table border="0">
+    <tr>
+        <td>이름:</td>
+        <td><input type="text" name="uid"><br></td>
+    </tr>
+    <tr>
+        <td>비밀번호</td>
+        <td><input type="password" name="upw"></td>
+    </tr>
+    <tr>
+        <td>이메일</td>
+        <td>
+        <input type="email"> @ <select name="favorites" size="2" multiple>
+        <option value="gmail">gmail.com</option>
+        <option value="naver">naver.com</option>
+        <option value="han">hanmail.net</option>
+        <option value="inputsite">직접입력</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+   		<td>제목</td><td><input type="text" name="title"></td>
+	</tr>
+    	<td>내용</td><td><textarea name="message" rows="3" cols="30"></textarea>
+    </td>
+	<tr>
+	    <td colspan="1"><button>전송</button>
+	    <td colspan="1"><button>재설정</button>
+		</td>
+	</tr>
+    
+</table>
+</form>
+</div>
+</div>
+</body>
+ <!--저작권-->
+    <footer>
+            <div id= "footer">
+                <p>
+                   Copyright &copy <a href="index.html" class="site">LEE JI EUN</a> All rights reserved.
+                </p>
+                <span>EMAIL : jieuni267@gmail.com</span>
+            </div>
+    </footer>       
+ <!--float 해제-->
+</body>
+</html>
